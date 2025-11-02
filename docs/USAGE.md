@@ -17,7 +17,7 @@ Complete guide to using the Roscoe Medication Schedule Generator.
 
 **Method 1: Files App**
 1. Navigate to the file in Files app
-2. Tap `app/index.html`
+2. Tap `index.html`
 3. Select "Safari" or your preferred browser
 
 **Method 2: Add to Home Screen**
@@ -33,13 +33,13 @@ If hosted on a server, just visit the URL in Safari.
 
 ### On Desktop
 
-**Simplest:** Double-click `app/index.html` in your file explorer
+**Simplest:** Double-click `index.html` in your file explorer
 
 **Alternative:** Serve via HTTP
 ```bash
 # From project root
 python3 -m http.server 8000
-# Visit: http://localhost:8000/app/index.html
+# Visit: http://localhost:8000/
 ```
 
 ## Generating a Schedule

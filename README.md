@@ -17,7 +17,7 @@ A mobile-friendly web app for generating printable medication schedklist for Ros
 ### For Family/Caregivers (Easiest Way)
 
 1. **Open the file on your iOS device:**
-   - Navigate to `app/index.html` in Files app
+   - Navigate to `index.html` in Files app
    - Tap to open in Safari (or any browser)
    
 2. **Generate your schedule:**
@@ -40,11 +40,14 @@ git clone https://github.com/yourusername/roscoe-med-generator.git
 cd roscoe-med-generator
 
 # Open in browser
-open app/index.html
+open index.html
 
 # Or serve with Python
 python3 -m http.server 8000
-# Then visit: http://localhost:8000/app/index.html
+# Then visit: http://localhost:8000/
+
+# Or use GitHub Pages (once enabled)
+# Visit: https://jose-vargas-git.github.io/roscoe-med-generator/
 ```
 
 ## 📖 Documentation
@@ -86,21 +89,20 @@ The app creates a printable checklist with:
 
 ```
 roscoe-med-generator/
-├── app/
-│   └── index.html          # Main application (mobile-optimized)
-├── assets/                 # Optional images/resources
+├── index.html             # Main application (mobile-optimized)
+├── assets/                # Optional images/resources
 ├── docs/
-│   ├── USAGE.md           # Detailed usage guide
-│   └── TECHNICAL.md       # Technical documentation
-├── QUICKSTART.md          # Quick setup guide
-└── README.md              # This file
+│   ├── USAGE.md          # Detailed usage guide
+│   └── TECHNICAL.md      # Technical documentation
+├── QUICKSTART.md         # Quick setup guide
+└── README.md             # This file
 ```
 
 ## 🔧 Customization
 
 The medication schedule can be easily customized:
 
-1. **Medication types** – Edit the medication names in `index.html`
+1. **Medication types** – Edit the medication names in `index.html` (in root folder)
 2. **Frequencies** – Adjust dosing schedules
 3. **Layout** – Modify CSS for different print sizes
 4. **Branding** – Add your own colors and styling
