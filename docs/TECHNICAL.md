@@ -79,19 +79,15 @@ HTMLDialogElement.close()
 ```
 roscoe-med-generator/
 │
-├── app/
-│   └── index.html              # Main application (all-in-one)
-│
-├── assets/                     # Optional assets
+├── index.html                 # Main application (all-in-one)
+├── assets/                    # Optional assets
 │   └── (user images go here)
-│
 ├── docs/
-│   ├── USAGE.md               # User guide
-│   └── TECHNICAL.md           # This file
-│
-├── .gitignore                 # Git ignore rules
-├── README.md                  # Project overview
-└── QUICKSTART.md              # Quick setup guide
+│   ├── USAGE.md              # User guide
+│   └── TECHNICAL.md          # This file
+├── .gitignore                # Git ignore rules
+├── README.md                 # Project overview
+└── QUICKSTART.md             # Quick setup guide
 ```
 
 ### index.html Structure
@@ -123,7 +119,7 @@ roscoe-med-generator/
 
 ### Changing Medication Names
 
-**Location:** Lines 303-304 and 324 in `app/index.html`
+**Location:** Lines 303-304 and 324 in `index.html` (root folder)
 
 **Example:** Change "Azathioprine" to "Prednisone":
 

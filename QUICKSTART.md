@@ -34,8 +34,15 @@ python3 -m http.server 8000
 Then on your iOS device:
 - Find your computer's IP address (System Settings → Network)
 - Open Safari on your iPhone/iPad
-- Visit: `http://YOUR_IP_ADDRESS:8000/app/index.html`
+- Visit: `http://YOUR_IP_ADDRESS:8000/`
 - Add to Home Screen for easy access
+
+### Method 3: GitHub Pages (Easiest - No Download!)
+
+Once GitHub Pages is enabled:
+- Visit: `https://jose-vargas-git.github.io/roscoe-med-generator/`
+- Works on any device with internet
+- Add to Home Screen for offline use
 
 ## For Desktop Users
 
@@ -43,11 +50,11 @@ Then on your iOS device:
 
 ```bash
 # Option 1: Open directly
-open app/index.html
+open index.html
 
 # Option 2: Serve with Python
 python3 -m http.server 8000
-# Visit: http://localhost:8000/app/index.html
+# Visit: http://localhost:8000/
 
 # Option 3: Serve with Node.js
 npx serve .
@@ -57,22 +64,22 @@ npx serve .
 ### Windows
 
 ```bash
-# Option 1: Double-click app/index.html in File Explorer
+# Option 1: Double-click index.html in File Explorer
 
 # Option 2: Serve with Python
 python -m http.server 8000
-# Visit: http://localhost:8000/app/index.html
+# Visit: http://localhost:8000/
 ```
 
 ### Linux
 
 ```bash
 # Option 1: Open with default browser
-xdg-open app/index.html
+xdg-open index.html
 
 # Option 2: Serve with Python
 python3 -m http.server 8000
-# Visit: http://localhost:8000/app/index.html
+# Visit: http://localhost:8000/
 ```
 
 ## Step-by-Step: Generating Your First Schedule
@@ -230,4 +237,4 @@ Check the main [README.md](README.md) for more information, or see the detailed 
 
 ---
 
-**Ready to generate your first schedule?** Open `app/index.html` and click "Generate New Schedule"! 🐕
+**Ready to generate your first schedule?** Open `index.html` and click "Generate New Schedule"! 🐕
